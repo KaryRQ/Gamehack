@@ -38,9 +38,8 @@ $(function(){
   var logout = function()
   {
     Twitch.logout(function(error) {
-        $('.twitch-connect').show();
-
-        $('#login-info').hide();
+      alert("bye");
+      console.log(error);
     });
   }
 
