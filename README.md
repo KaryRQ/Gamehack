@@ -78,10 +78,28 @@ se buscará autenticar la cuenta a traves de la API de Twitch
 
 ## Búsqueda de tipografía y colores(kary)
 
-Se buscará el contenido más adecuado de la temática, que sea llmativo y que imacte a los usuarios
+Se buscará el contenido más adecuado de la temática, que sea llamativo y que impacte a los usuarios
 
-## ACtualización README(Kary)
+## Actualización README(Kary)
 
 Se actualizó el README con las tareas asignadas hasta el momento
+
+## MIERCOLES 07/02/2018
+### Flujo de trabajo miércoles en la mañana
+
+* **Información de API's de autenticación**
+* **Información de API's de tiendas**
+* **Inicio de maquetación**
+* **Actualización README**
+
+***
+
+## Toma de decisión en equipo
+
+
+# Link de Trello
+
+https://trello.com/b/VwZrYUPV/organizaci%C3%B3n-del-hackaton
+
 
 
