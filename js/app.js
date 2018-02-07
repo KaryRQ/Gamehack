@@ -51,7 +51,7 @@ $(function(){
     login();
   })
 
-  $('.twitch-connect').click(function(e){
+  $('.twitch-disconnect').click(function(e){
     e.preventDefault();
 
     logout();
