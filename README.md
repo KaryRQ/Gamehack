@@ -6,11 +6,11 @@
 ***
 
 ## MARTES 06/02/2018
-### Flujo de trabajo
+### Flujo de trabajo martes en la mañana
 
 * **Toma de decisión**
 * **Lluvia de ideas**
-* **Decisión de elementos**
+* **Organización de equipo**
 * **Sketching a lápiz**
 * **Búsqueda de API's**
 * **Creación de repositorio y README**
@@ -23,9 +23,15 @@ Para este proyecto se tomo la decisión en squad de realizar una red social de g
 
 ## Lluvia de ideas en equipo
 
-Todas las integrantes del squad comentamos sobre como nos gustaría que fluyera la aplicación
+Todas las integrantes del squad comentamos sobre como nos gustaría que fluyera la aplicación.
 
-## Decisión de elemetos y Sketching a lápiz
+## Organización de equipo
+
+Para el proyecto nos organizaremos por medio de un rotafolio donde colocaremos las ideas que vayan saliendo y un tablero en Trello
+
+![Trello](assets/images/trello.jpg)
+
+## Sketching a lápiz
 
 ![Sketch a lápiz](assets/images/sketch.jpg)
 
@@ -37,7 +43,45 @@ Se comienza a buscar en internet todas las API's que pueden ayudar a mejorar el 
 
 Se crea el repositorio en Github y se inicializa con el README del día.
 
+### Flujo de trabajo martes en la tarde
 
+* **Realización de encuesta**
+* **Mejoras en sketch**
+* **Realización de BD**
+* **Investigación de API Twitch autenticación**
+* **Búsqueda de tipografías y colores adecuados**
+* **Actualización README**
 
+***
+## Realización de encuesta (Adri)
+
+Se realizara una pequeña encuesta la cual será lanzada a diferentes canales de gamers conocidos vía Whatsapp
+
+## Mejoras de skecth(Ingrid)
+
+Se aterrizará de manera definida la idea y se plamará en papel y lápiz con las siguientes pantallas:
+
+![Sketch a lápiz](assets/images/1.jpg)
+![Sketch a lápiz](assets/images/2.jpg)
+![Sketch a lápiz](assets/images/3.jpg)
+
+## Realización de BD (Ingrid)
+
+Para el proyecto se realizarán 2 bases de datos con pocos datos para demostrarla funcionalidad de la app
+
+* Juegos
+* Usuarios
+
+## Investigación API Twitch(Jess)
+
+se buscará autenticar la cuenta a traves de la API de Twitch
+
+## Búsqueda de tipografía y colores(kary)
+
+Se buscará el contenido más adecuado de la temática, que sea llmativo y que imacte a los usuarios
+
+## ACtualización README(Kary)
+
+Se actualizó el README con las tareas asignadas hasta el momento
 
 
