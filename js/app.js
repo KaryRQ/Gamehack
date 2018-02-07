@@ -38,13 +38,12 @@ $(function(){
   {
     Twitch.logout(function(error) {
         $('.twitch-conect').show();
+
         $('strong').text('');
         $('#picture').attr('src','');
         $('#login-info').hide();
     });
-
   }
-
 
   $('.twitch-connect').click(function(e){
     e.preventDefault();
