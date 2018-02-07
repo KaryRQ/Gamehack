@@ -31,7 +31,7 @@ $(function(){
       Twitch.login({
         scope: ['user_read', 'channel_read']
       });
-
+      console.log("login funciona aqui");
   }
 
 
@@ -53,5 +53,6 @@ $(function(){
     console.log("funciona el botòn");
     logout();
   })
+  console.log($('.twitch-disconnect'));
 
 })
