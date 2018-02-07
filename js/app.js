@@ -15,13 +15,14 @@ $(function(){
       $('.twitch-connect').hide();
 
       getInfo(function(data){
-          $('strong').text(data.display_name)
+          $('strong').text(data.display_name);
           $('#picture').attr('src',"https://static-cdn.jtvnw.net/user-default-pictures/0ecbb6c3-fecb-4016-8115-aa467b7c36ed-profile_image-300x300.jpg");
       });
 
     }else{
       $('#login-info').hide();
     }
+
   });
 
 
@@ -39,8 +40,6 @@ $(function(){
     Twitch.logout(function(error) {
         $('.twitch-connect').show();
 
-        $('strong').text('');
-        $('#picture').attr('src','');
         $('#login-info').hide();
     });
   }
