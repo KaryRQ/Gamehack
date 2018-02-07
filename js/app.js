@@ -50,7 +50,7 @@ $(function(){
 
   $('.twitch-disconnect').click(function(e){
     e.preventDefault();
-
+    console.log("funciona el botòn");
     logout();
   })
 
