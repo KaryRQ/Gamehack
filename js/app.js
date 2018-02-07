@@ -15,7 +15,7 @@ $(function(){
       $('.twitch-disconnect').hide();
 
       getInfo(function(data){
-
+          $('strong').text(data.display_name)
       });
 
     }else{
