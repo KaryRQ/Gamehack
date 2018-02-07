@@ -31,14 +31,14 @@ $(function(){
       Twitch.login({
         scope: ['user_read', 'channel_read']
       });
-      console.log("login funciona aqui");
+
   }
 
 
   var logout = function()
   {
     Twitch.logout(function(error) {
-      console.log(error);
+      alert("bye")
     });
   }
 
@@ -53,6 +53,4 @@ $(function(){
     console.log("funciona el botòn");
     logout();
   })
-  console.log($('#btn-logout'));
-
 })
