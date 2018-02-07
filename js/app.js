@@ -12,7 +12,7 @@ $(function(){
       console.log(status);
 
     if (status.authenticated) {
-      $('.twitch-disconnect').hide();
+      $('.twitch-connect').hide();
 
       getInfo(function(data){
           $('strong').text(data.display_name)
@@ -36,7 +36,12 @@ $(function(){
 
   var logout = function()
   {
-
+    Twitch.logout(function(error) {
+        $('.twitch-conect').show();
+        $('strong').text('');
+        $('#picture').attr('src','');
+        $('#login-info').hide();
+    });
 
   }
 
