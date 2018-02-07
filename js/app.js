@@ -48,11 +48,11 @@ $(function(){
     login();
   })
 
-  $('.twitch-disconnect').click(function(e){
+  $('#btn-logout').click(function(e){
     e.preventDefault();
     console.log("funciona el botòn");
     logout();
   })
-  console.log($('.twitch-disconnect'));
+  console.log($('#btn-logout'));
 
 })
