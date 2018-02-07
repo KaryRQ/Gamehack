@@ -35,12 +35,12 @@ $(function(){
   }
 
 
-  /*var logout = function()
+  var logout = function()
   {
     Twitch.logout(function(error) {
-
+      console.log(error);
     });
-  }*/
+  }
 
   $('.twitch-connect').click(function(e){
     e.preventDefault();
@@ -51,8 +51,7 @@ $(function(){
   $('.twitch-disconnect').click(function(e){
     e.preventDefault();
 
-    alert("bye");
-    console.log(error);
+    logout();
   })
 
 })
