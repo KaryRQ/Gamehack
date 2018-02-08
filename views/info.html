@@ -49,13 +49,7 @@
         </div>
     </nav>
 
-
-
-
-
     <gcse:search></gcse:search>
-
-
 
     <!--Título de sección-->
     <div class="page-header centered">
@@ -101,26 +95,24 @@
         </a>
     </div>
 
+    <form id="image">
+      <div class= "form-group">
+        <textarea class="form-control advice" placeholder="Selecciona una imagen?"></textarea>
+      </div>
 
-<form id="image">
-  <div class= "form-group">
-    <textarea class="form-control advice" placeholder="Selecciona una imagen?"></textarea>
-  </div>
+      <div class="form-group">
+        <input type="file" class="form-control-file" id="load">
+        <button type="submit" class="btn btn-primary mb-2 text-rigth button-publish" id="post">Publicar</button>
+      </div>
+    <form>
 
-  <div class="form-group">
-    <input type="file" class="form-control-file" id="load">
-    <button type="submit" class="btn btn-primary mb-2 text-rigth button-publish" id="post">Publicar</button>
-  </div>
-<form>
-
-
-  <div class="row">
-    <div class="col-xs-12">
-      <a href="#" class="thumbnail">
-        <img class="caption" id="" src="" alt="">
-      </a>
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="#" class="thumbnail">
+          <img class="caption" id="" src="" alt="">
+        </a>
+      </div>
     </div>
-  </div>
 
     <!--  funcion buscador personalizado-->
     <script>
@@ -142,20 +134,22 @@
         <div class="row">
             <div class="col-xs-5 col-sm-5">
                 <h3>Foro de discusión</h3>
-                <textarea id="write" name="name" rows="8" cols="48"></textarea>
-                <button id="sendComments" type="button" name="button"></button>
+                <textarea id="write" name="name" rows="3" cols="50"></textarea>
+              <button type="button" name="button">Compartir</button>
             </div>
         </div>
     </section>
+
+
+
 
     <section>
         <!--Area para escribir comentarios-->
         <div class="row">
             <div class="col-xs-5">
                 <h3>Intercambio y venta</h3>
-                <textarea id="write" name="name" rows="8" cols="48"></textarea>
+                <textarea id="write" name="name" rows="3" cols="50"></textarea>
                 <button id="sendComments" type="button" name="button"></button>
-
             </div>
         </div>
     </section>

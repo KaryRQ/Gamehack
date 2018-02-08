@@ -2,6 +2,11 @@ body {
 	background-color: #21272b;
 }
 
+h3{
+    color: #00a186;
+    text-align: center
+}
+
 /*navbar*/
 
 .navbar-header {
@@ -80,10 +85,10 @@ body {
 }
 
 #write{
-    background-color: white;
+  background-color:#fff;
+
 }
 
-h3{
-    color: #00a186;
-    text-align: center
+#sendComments{
+	background-color:#00a186;
 }
