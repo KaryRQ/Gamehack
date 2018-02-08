@@ -1,0 +1,86 @@
+body {
+  background-color: #21272B;
+}
+
+/*navbar*/
+.navbar-header {
+  height: 10vh;
+  background-color: #00A186;
+}
+
+.logo {
+  margin-top: 1vh;
+  height: 8vh;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #14191C;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #14191C;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -28px;
+  margin-left: -28px;
+}
+
+.avatar {
+  height: 20vh;
+  margin-left: 20vh;
+}
+
+.nombre-usuario {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  margin-left: 3vh;
+  color: #00A186;
+}
+
+/*reseña */
+.thumbnail {
+  margin-top: 3vh;
+  margin-left: 4vh;
+  width: 50vh;
+  height: 29vh;
+  background-color: #14191C;
+  border-color: #14191C;
+  color: white;
+}
+
+.fa-pencil {
+  margin-top: 1vh;
+  margin-left: 2vh;
+  color: #3A464C;
+}
+
+.btn-primary {
+  background-color: #00A186;
+  border-color: #00A186;
+}
+
+h3 {
+  color: #3A464C;
+}
+
+.amigos, .reseña {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  margin-left: 3vh;
+  color: #00A186;
+}
+
+.form-control {
+  width: 50vh;
+  background-color: #14191C;
+  border-color: #14191C;
+  color: white;
+}
+
+.btn-default {
+  background-color: #14191C;
+  border-color: #14191C;
+  color: white;
+}
