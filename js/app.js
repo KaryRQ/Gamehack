@@ -8,11 +8,9 @@ $(function(){
   }
 
   Twitch.init({clientId: 'jyckx3hg9w4r3vmi177y5mfmk2j2r5'}, function(error, status) {
-
       console.log(status);
 
     if (status.authenticated) {
-      $('.twitch-connect').hide();
 
       getInfo(function(data){
           $('strong').text(data.display_name);
