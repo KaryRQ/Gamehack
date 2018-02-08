@@ -84,22 +84,59 @@ Se buscará el contenido más adecuado de la temática, que sea llamativo y que 
 
 Se actualizó el README con las tareas asignadas hasta el momento
 
+
+********
+
 ## MIERCOLES 07/02/2018
 ### Flujo de trabajo miércoles en la mañana
 
 * **Información de API's de autenticación**
-* **Información de API's de tiendas**
+* **Información de API's de buscador**
+* **Sketch Digital**
 * **Inicio de maquetación**
 * **Actualización README**
 
 ***
 
-## Toma de decisión en equipo
+## Información de API's de autenticación(Jess)
 
+Se buscará la forma de hacer login con los usuarios que ya cuentan con cuenta en Twitch
+
+## Información de API's de buscador (Ingrid)
+
+Se busco una API que hiciera búsquedas a través de Google con las palabras clave de videojuegos
+
+## Sketch Digital(Adri)
+
+Se crearán las pantallas que se desean tener en la aplicación a través de AI al igual que el logo
+![logo](assets/images/logo.png)
+
+![Sketch digital](assets/images/mesa1.png)
+
+![Sketch digital](assets/images/mesa2.png)
+
+![Sketch digital](assets/images/mesa3.png)
+
+![Sketch digital](assets/images/mesa4.png)
+
+## Inicio de maquetación(Kary)
+
+Se inicia la maquetación de la vista de información donde se tendrán los últimos lanzamientos, foro,etc
+
+## Actualización README 
+
+Actualización de README con avances del proyecto
+
+
+***
 
 # Link de Trello
 
 https://trello.com/b/VwZrYUPV/organizaci%C3%B3n-del-hackaton
+
+# Link de Encuesta
+
+https://docs.google.com/forms/d/e/1FAIpQLSfuc8noDS2kLyr5ZPA_O9FXThQ1CgKHZ9mg9F5WpQisIbM9ng/viewform
 
 
 
