@@ -4,21 +4,21 @@ var games =[
  "Title" : "Dragon Ball FighterZ",
  "Console" : ["Nintendo Switch", "PS4", "Xbox One"],
   "Ranking" : 4.3,
- "photo" : "../assets/images/dragon-ball-fighterz.jpg"
+ "photo" : "../assets/images/dragonball.jpg"
 },
 
 {
   "Title" : "Pokémon Switch",
   "Console" : "Nintendo Switch",
    "Ranking" : 4.0,
-  "photo" : "../assets/images/pokemon-nintendo-switch.jpg"
+  "photo" : "../assets/images/pokemonns.jpg"
 },
 
 {
   "Title" : "Jurassic World Evolution",
   "Console" : "PS4",
    "Ranking" : 4.1,
-  "photo" : "../assets/images/jurassic-world-evolution.jpg"
+  "photo" : "../assets/images/jwevolution.jpg"
 },
 
 {
@@ -32,7 +32,7 @@ var games =[
   "Title" : "Ni No Kuni II",
   "Console" : "PS4",
    "Ranking" : 4.6,
-  "photo" : "../assets/images/Ni-no-Kuni-II.jpg"
+  "photo" : "../assets/images/nino.jpg"
 },
 
 {
@@ -46,26 +46,26 @@ var games =[
   "Title" : "Megaman X",
   "Console" :  ["Nintendo Switch", "PS4", "Xbox One"],
    "Ranking" : 4.8,
-  "photo" : "../assets/images/Mega-man11.jpg"
+  "photo" : "../assets/images/mm11.jpg"
 },
 
 {
   "Title" : "Final Fantasy XV",
   "Console" : "Xbox One",
    "Ranking" : 5.0,
-  "photo" : "../assets/images/Final-fantasy-XV.jpg"
+  "photo" : "../assets/images/finalfantasy.jpg"
 },
 {
   "Title" : "Gran Turismo Sport",
   "Console" : "PS4",
    "Ranking" : 4.1,
-  "photo" : "../assets/images/gran-turismo-sport.jpg"
+  "photo" : "../assets/images/gtsport.jpg"
 },
 {
   "Title" : "Mario Kart 8 Deluxe",
   "Console" : "Nintendo Switch",
    "Ranking" : 4.0,
-  "photo" : "../assets/images/Mario-Kart-8.png"
+  "photo" : "../assets/images/mariokart.png"
 }
 ];
 
