@@ -29,10 +29,10 @@ function saveData (){
   localStorage.setItem('userEmail',$emailInput.val());
   localStorage.setItem('userPassword',$passwordInput.val());
 
-  var userName = localStorage.getItem('userName');
-  var userEmail = localStorage.getItem('userEmail');
-  var userPassword = localStorage.getItem('userPassword');
-  console.log(userName,userEmail,userPassword);
+
+localStorage.getItem('userEmail');
+localStorage.getItem('userPassword');
+  console.log( localStorage.getItem('userName'));
 }
 
 $(document).ready(loadPage);
