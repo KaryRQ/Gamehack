@@ -32,7 +32,6 @@ function saveData (){
   var userName = localStorage.getItem('userName');
   var userEmail = localStorage.getItem('userEmail');
   var userPassword = localStorage.getItem('userPassword');
-
   console.log(userName,userEmail,userPassword);
 }
 
