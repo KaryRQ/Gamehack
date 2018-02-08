@@ -11,12 +11,13 @@ $(function(){
       console.log(status);
 
     if (status.authenticated) {
-
+      window.location.href = "../views/info.html";
+      
       getInfo(function(data){
           $('strong').text(data.display_name);
           $('#picture').attr('src',"https://static-cdn.jtvnw.net/user-default-pictures/0ecbb6c3-fecb-4016-8115-aa467b7c36ed-profile_image-300x300.jpg");
       });
-      window.location.href = "../views/info.html";
+
 
     }else{
       $('#login-info').hide();
