@@ -1,48 +1,89 @@
-.centered{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+body {
+	background-color: #21272b;
+}
 
-    #myCarousel {
-        background: #2f4357;
-        margin-top: 20px;
-    }
+/*navbar*/
 
-    .carousel-inner {
-        height: 30vh;
-    }
+.navbar-header {
+	height: 10vh;
+	background-color: #00a186;
+}
 
-    .carousel-inner img {
-        width: 100%;
-    }
+.logo {
+	margin-top: 1vh;
+	height: 8vh;
+	margin-left: 5vh;
+}
 
-    .bs-example {
-        margin: 20px;
-    }
+.navbar-default > .navbar-header > .navbar-toggle {
+	border-color: #14191c;
+}
 
-    .foro {
-        margin: 1px solid black;
-    }
+.navbar-default .navbar-nav > li > a {
+	background-color: #00a186;
+	color: #14191c;
+	margin-left: 5vh;
+}
 
-    #comentario {
-        width: 100%;
-        height: 5vh;
-        margin-top: 5%;
-        border: 1px solid #1DA1F2;
-        overflow: hidden;
-        list-style: none;
-        text-decoration: none;
-        display: inline-block;
-    }
+.navbar-default > .navbar-toggle > .icon-bar {
+	background-color: #14191c;
+}
 
-    #benviar {
-        background-color: transparent;
-        color: #1DA1F2;
-        display: inline-block;
-    }
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+	margin-right: -28px;
+	margin-left: -28px;
+}
 
-    #comments {
-        list-style: none;
-        text-decoration: none;
-    }
+.page-header {
+	color: #00a186;
+}
+
+.gsc-control-cse {
+	font-family: Arial, sans-serif;
+	border-color: #14191c;
+	background-color: #14191c;
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myCarousel {
+	background: #2f4357;
+	margin-top: 20px;
+}
+
+.carousel-inner {
+	height: 30vh;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+
+.bs-example {
+	margin: 20px;
+}
+
+.foro {
+	margin: 1px solid black;
+}
+
+.modal {
+	margin-top: 35vh;
+	margin-right: 1vh;
+}
+
+#write{
+    background-color: white;
+}
+
+h3{
+    color: #00a186;
+    text-align: center
+}
