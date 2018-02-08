@@ -1,3 +1,53 @@
+body {
+    background-color: #21272B;
+}
+
+/*navbar*/
+
+.navbar-header {
+    height: 10vh;
+    background-color: #00A186;
+}
+
+.logo {
+    margin-top: 1vh;
+    height: 8vh;
+    margin-left: 5vh;
+}
+
+.navbar-default>.navbar-header>.navbar-toggle {
+    border-color: #14191C;
+}
+
+.navbar-default .navbar-nav>li>a{
+    background-color: #00A186;
+    color: #14191C;
+    margin-left: 5vh;
+}
+
+.navbar-default>.navbar-toggle>.icon-bar {
+    background-color: #14191C;
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-right: -28px;
+    margin-left: -28px;
+}
+
+.page-header{
+    color: #00A186;
+}
+
+.gsc-control-cse {
+    font-family: Arial, sans-serif;
+    border-color: #14191C;
+    background-color: #14191C;
+}
+
+
 .centered{
     display: flex;
     justify-content: center;
@@ -24,6 +74,7 @@
     .foro {
         margin: 1px solid black;
     }
+
 
     #comentario {
         width: 100%;

@@ -1,3 +1,4 @@
+
 //Funcionalidad "agrega comentarios"
 //Variables globales para uso de las funcionalidades posteriores
 var comments = [];
@@ -59,3 +60,4 @@ function paintComments (commentObj){
 
 
 $(document).ready(loadPage);
+

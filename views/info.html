@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/info.css">
     <title>Gamehack</title>
+
     <link rel="shortcut icon" href="../assets/images/logo.png">
+
+    <link rel="shortcut icon" href="../assets/images/maquinita.png">
+
+<script>
+    (function () {
+        var cx = '000294370568643452848:d01ohwfup0y';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+</script>
 </head>
 
 <body>
@@ -27,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <img src="../assets/images/logo-azul.png" class="logo" alt="logo">
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -47,10 +62,16 @@
             </div>
         </div>
     </nav>
+
     <gcse:search></gcse:search>
 
+   
+    
+    <gcse:search class="search"></gcse:search>
+
+
     <!--Título de sección-->
-    <div class="page-header">
+    <div class="page-header centered">
         <h1> Últimos Lanzamientos</small>
         </h1>
     </div>
@@ -66,21 +87,21 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <img src="../assets/images/dragonball.jpg" alt="Dragon Ball">
+                <img src="../assets/images/dragonball.jpg"  alt="Dragon Ball" data-toggle="modal" data-target="#myModal">
             </div>
 
             <div class="item">
-                <img src="../assets/images/finalfantasy.jpg" alt="Final Fantasy">
+                <img src="../assets/images/finalfantasy.jpg" alt="Final Fantasy" data-toggle="modal" data-target="#myModal2">
             </div>
 
             <div class="item">
-                <img src="../assets/images/gtsport.jpg" alt="GT  Sport">
+                <img src="../assets/images/gtsport.jpg" alt="GT  Sport" data-toggle="modal" data-target="#myModal3">
             </div>
             <div class="item">
-                <img src="../assets/images/jwevolution.jpg" alt="Jurassic World Evolution">
+                <img src="../assets/images/jwevolution.jpg" alt="Jurassic World Evolution" data-toggle="modal" data-target="#myModal4">
             </div>
             <div class="item">
-                <img src="../assets/images/mm11.jpg" alt="Mega Man 11">
+                <img src="../assets/images/mm11.jpg" alt="Mega Man 11" data-toggle="modal" data-target="#myModal5">
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -107,6 +128,133 @@
             s.parentNode.insertBefore(gcse, s);
         })();
     </script>
+
+    <section>
+        <div class=" container-fluid foro">
+            Foro de discusión
+        </div>
+    <!--Area para escribir comentarios-->
+    <div class="col-xs-12 col-sm-12 col-offset-sm-1">
+        <textarea id="comentario" COLS=12 ROWS=1 placeholder="Comenta ahora"></textarea>
+        <i class="fa fa-paper-plane" aria-hidden="true" type="button" id="benviar" value="enviar"></i>
+    
+        <!--Area para publicar comentarios-->
+        <ul id="comments">
+            <div>
+                <li>XD Segundo</li>
+            </div>
+    
+            <li>Primer comentario</li>
+        </ul>
+    </div>
+    </section>
+
+    
+<!-- Modal Dragon Ball -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal GT Sport -->
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal GT Sport -->
+<div id="myModal3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal GT Sport -->
+<div id="myModal4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal GT Sport -->
+<div id="myModal5" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
       <!--  Enlaces -->
       <script src="../js/jquery-3.3.1.min.js" charset="utf-8"></script>
