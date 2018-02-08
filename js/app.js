@@ -3,13 +3,13 @@
  $(document).ready(function() {
    setTimeout(function() {
        $(".container-1").fadeOut(1500);
-   },1000);
+   },2000);
 });
 
 $(document).ready(function() {
    setTimeout(function() {
        $(".container-2").fadeIn(1500);
-   },1000);
+   },2000);
 });
 
 /* Funcionalidad log in con twitch*/
@@ -82,4 +82,3 @@ $(function(){
     logout();
   })
 })
-
