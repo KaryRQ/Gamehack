@@ -14,7 +14,7 @@ $(function(){
 /*sí su estado está inicializado traeme la data del usuario y cambia de vista*/
 
       if (status.authenticated) {
-          window.location.href = window.location.origin + "../views/info.html";
+          window.location.href = window.location.origin + "/Gamehack/views/info.html";
  /*función añade esta imagen ye ste texto de acuerdo a el log in*/
       getInfo(function(data){
           $('strong').text(data.display_name);
