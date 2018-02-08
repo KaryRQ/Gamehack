@@ -63,7 +63,7 @@
     </nav>
    
     
-    <gcse:search class="search"></gcse:search>
+    <gcse:search></gcse:search>
 
     <!--Título de sección-->
     <div class="page-header centered">
@@ -112,26 +112,33 @@
 
 
     <section>
-        <div class=" container-fluid foro">
-            Foro de discusión
-        </div>
-    <!--Area para escribir comentarios-->
-    <div class="col-xs-12 col-sm-12 col-offset-sm-1">
-        <textarea id="comentario" COLS=12 ROWS=1 placeholder="Comenta ahora"></textarea>
-        <i class="fa fa-paper-plane" aria-hidden="true" type="button" id="benviar" value="enviar"></i>
-    
-        <!--Area para publicar comentarios-->
-        <ul id="comments">
-            <div>
-                <li>XD Segundo</li>
+       <!--Area para escribir comentarios-->
+        <div class="row">
+            <div class="col-xs-7">
+                <h3>Foro de discusión</h3>
+                <textarea id="write" name="name" rows="8" cols="80"></textarea>
+                <button id="sendComments" type="button" name="button"></button>
             </div>
-    
-            <li>Primer comentario</li>
-        </ul>
-    </div>
+        </div>    
     </section>
 
-    
+    <section>
+        <!--Area para escribir comentarios-->
+        <div class="row">
+            <div class="col-xs-7">
+                <h3>Trucos</h3>
+                <textarea id="write" name="name" rows="8" cols="80"></textarea>
+                <button id="sendComments" type="button" name="button"></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--Area para publicar compra e intercambio-->
+        
+    </section>
+
+
 <!-- Modal Dragon Ball -->
 <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
