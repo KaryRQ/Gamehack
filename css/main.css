@@ -6,7 +6,6 @@ body{
   max-width: 750px;
   text-align: center;
 }
-
 input{
   margin: 5%;
 }
@@ -35,6 +34,15 @@ form{
   background-color: #f12545;
   border:  #f12545;
   color: #fff;
+}
+
+.container-2{
+  display: none;
+}
+
+.logo-splash {
+  height: 15vh;
+  margin-top: 75%;
 }
 
 .title{
