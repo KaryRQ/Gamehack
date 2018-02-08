@@ -1,78 +1,89 @@
 body {
-    background-color: #21272B;
+	background-color: #21272b;
 }
 
 /*navbar*/
 
 .navbar-header {
-    height: 10vh;
-    background-color: #00A186;
+	height: 10vh;
+	background-color: #00a186;
 }
 
 .logo {
-    margin-top: 1vh;
-    height: 8vh;
-    margin-left: 5vh;
+	margin-top: 1vh;
+	height: 8vh;
+	margin-left: 5vh;
 }
 
-.navbar-default>.navbar-header>.navbar-toggle {
-    border-color: #14191C;
+.navbar-default > .navbar-header > .navbar-toggle {
+	border-color: #14191c;
 }
 
-.navbar-default .navbar-nav>li>a{
-    background-color: #00A186;
-    color: #14191C;
-    margin-left: 5vh;
+.navbar-default .navbar-nav > li > a {
+	background-color: #00a186;
+	color: #14191c;
+	margin-left: 5vh;
 }
 
-.navbar-default>.navbar-toggle>.icon-bar {
-    background-color: #14191C;
+.navbar-default > .navbar-toggle > .icon-bar {
+	background-color: #14191c;
 }
 
-.container-fluid>.navbar-collapse,
-.container-fluid>.navbar-header,
-.container>.navbar-collapse,
-.container>.navbar-header {
-    margin-right: -28px;
-    margin-left: -28px;
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+	margin-right: -28px;
+	margin-left: -28px;
 }
 
-.page-header{
-    color: #00A186;
+.page-header {
+	color: #00a186;
 }
 
 .gsc-control-cse {
-    font-family: Arial, sans-serif;
-    border-color: #14191C;
-    background-color: #14191C;
+	font-family: Arial, sans-serif;
+	border-color: #14191c;
+	background-color: #14191c;
 }
 
+.centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-.centered{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+#myCarousel {
+	background: #2f4357;
+	margin-top: 20px;
+}
 
-    #myCarousel {
-        background: #2f4357;
-        margin-top: 20px;
-    }
+.carousel-inner {
+	height: 30vh;
+}
 
-    .carousel-inner {
-        height: 30vh;
-    }
+.carousel-inner img {
+	width: 100%;
+}
 
-    .carousel-inner img {
-        width: 100%;
-    }
+.bs-example {
+	margin: 20px;
+}
 
-    .bs-example {
-        margin: 20px;
-    }
+.foro {
+	margin: 1px solid black;
+}
 
-    .foro {
-        margin: 1px solid black;
-    }
+.modal {
+	margin-top: 35vh;
+	margin-right: 1vh;
+}
 
- 
+#write{
+    background-color: white;
+}
+
+h3{
+    color: #00a186;
+    text-align: center
+}
