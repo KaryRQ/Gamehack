@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="../css/info.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    
+    <title>Gamehack</title>
+    <link rel="shortcut icon" href="../assets/images/maquinita.png">
 
 <script>
     (function () {
@@ -23,7 +24,6 @@
     })();
 </script>
 
-    <title>Gamehack</title>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <img src="../assets/images/logo-azul.png" class="logo" alt="logo">
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -63,9 +63,9 @@
 
     
     
-    <gcse:search></gcse:search>
+    <gcse:search class="search"></gcse:search>
     <!--Título de sección-->
-    <div class="page-header">
+    <div class="page-header centered">
         <h1> Últimos Lanzamientos</small>
         </h1>
     </div>
@@ -111,19 +111,26 @@
 
 
     <section>
-        <div class="foro">
+        <div class=" container-fluid foro">
             Foro de discusión
         </div>
-        <!--Area para escribir comentarios-->
-        <div class="col-xs-6 col-sm-6 col-offset-sm-2">
-            <textarea id="comentario" COLS=12 ROWS=2 placeholder="Qué estás pensando?"></textarea>
-            <i class="fa fa-paper-plane" aria-hidden="true" type="button" id="benviar" value="enviar"></i>
-        </div>
-        <div>
-            <ul id="comments">
-            </ul>
-        </div>
+    <!--Area para escribir comentarios-->
+    <div class="col-xs-12 col-sm-12 col-offset-sm-1">
+        <textarea id="comentario" COLS=12 ROWS=1 placeholder="Comenta ahora"></textarea>
+        <i class="fa fa-paper-plane" aria-hidden="true" type="button" id="benviar" value="enviar"></i>
+    
+        <!--Area para publicar comentarios-->
+        <ul id="comments">
+            <div>
+                <li>XD Segundo</li>
+            </div>
+    
+            <li>Primer comentario</li>
+        </ul>
+    </div>
     </section>
+
+    
 
 
 
