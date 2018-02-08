@@ -14,11 +14,14 @@ $(function(){
 /*sí su estado está inicializado traeme la data del usuario y cambia de vista*/
 
       if (status.authenticated) {
-          window.location.href = window.location.origin + "/Gamehack/views/info.html";
- /*función añade esta imagen ye ste texto de acuerdo a el log in*/
+
       getInfo(function(data){
+
+          /*localStorage.setItem('userName', JSON.stringify(data.display_name));*/
           $('strong').text(data.display_name);
           $('#picture').attr('src',"https://static-cdn.jtvnw.net/user-default-pictures/0ecbb6c3-fecb-4016-8115-aa467b7c36ed-profile_image-300x300.jpg");
+          window.location.href = window.location.origin + "/Gamehack/views/info.html";
+ /*función añade esta imagen ye ste texto de acuerdo a el log in*/
       });
 
 
